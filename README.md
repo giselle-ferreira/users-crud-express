@@ -27,6 +27,7 @@ CRUD of Users developed in NodeJs, Express, MongoDB and Express Validator.
 <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" height="27" />
 <img alt="Express" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" height="27" />
 <img alt="express-validator" src="https://img.shields.io/badge/-Express--Validator-blueviolet" height="27" />
+<img alt="uuid" src="https://img.shields.io/badge/-UUID-black" height="27" />
 </p>
 
 <br/>
