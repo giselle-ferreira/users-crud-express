@@ -1,11 +1,11 @@
 import { Router } from 'express'
-import { getUser, createUser, updateUser, deleteUser } from '../controllers/userControllers.js'
+import { getUsers, createUser, updateUser, deleteUser } from '../controllers/userControllers.js'
 import { body, check } from 'express-validator'
 import { valResultExpress } from '../middleware/validationResult.js'
 
 const router = Router()
 
-router.get('/', getUser)
+router.get('/', getUsers)
 router.post('/create',
 [
     body('email', 'Email not valid').trim().isEmail()
